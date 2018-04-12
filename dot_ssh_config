@@ -1,0 +1,8 @@
+Host *
+    User john_smith
+
+Host github github.com
+  HostName github.com
+  IdentityFile ~/.ssh/john_smith-2016-07-21.key
+  User git
+
